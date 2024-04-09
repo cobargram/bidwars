@@ -1,8 +1,21 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import NoPage from "./pages/NoPage";
+// call the page here, like one of the above
+
 function App(){
   return (
-    <>
-      <div>Hi Busayo</div>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+          {/* create the router for the page, here, like the commented one, above */}
+        </Route>
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
