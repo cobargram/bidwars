@@ -4,7 +4,7 @@ function Navbar() {
         <nav className='navbar navbar-expand-md navbar-light bg-light'>
             <div className='container-fluid'>
             <form className='d-flex col-6 ms-2'>
-                <i class="bi-bootstrap bi--rotate-315 bi--xl justify-content-center mt-2 me-1"></i>
+                <i className="bi-bootstrap bi--rotate-315 bi--xl justify-content-center mt-2 me-1"></i>
                 <input className='form-control pt-2 pb-2' type='search' placeholder='What you looking for ?' /> 
             </form>
             <button className="navbar-toggler p-1 pt-2 pb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +23,16 @@ function Navbar() {
                     <i className="bi bi-globe"></i>
                     </a>
                 </li>
-                <li class="nav-item dropdown d-none d-md-block">
-                    <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li className="nav-item dropdown d-none d-md-block">
+                    <a className="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <button className='p-1 pt-2 pb-2 rounded-2 border border-1'><i className="bi bi-list"></i> <i className="bi bi-person-fill"></i></button>
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarScrollingDropdown">
-                    <li><a class="dropdown-item" href="#">Login / Register</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <li><a class="dropdown-item" href="#">The Team</a></li>
-                    <li><hr class="dropdown-divider"></hr></li>
-                    <li><a class="dropdown-item" href="#">Buzz The Team</a></li>
+                    <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarScrollingDropdown">
+                    <li><a className="dropdown-item" href="#">Login / Register</a></li>
+                    <li><hr className="dropdown-divider"></hr></li>
+                    <li><a className="dropdown-item" href="#">The Team</a></li>
+                    <li><hr className="dropdown-divider"></hr></li>
+                    <li><a className="dropdown-item" href="#">Buzz The Team</a></li>
                     </ul>
                 </li>
                 </ul>  
